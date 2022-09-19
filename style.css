@@ -1,0 +1,112 @@
+.display-container{
+    /* width: fit-content;
+    height: fit-content; */
+    height: 1000%;
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 4px;
+    border: 2px solid paleturquoise;
+    background-color: #EAF6F6;
+    /* box-shadow: 13px 13px 20px  #5555,
+                -13px 13px 20px #CBCED8 */
+       
+}
+.contain-all{
+    border: 2px solid #EAF6F6;
+    border-radius: 30px;
+}
+
+.display-exp{
+    /* background-color: green; */
+    height: 300px ;
+    width: 350px;
+    padding: 4% 0 0 0;
+    margin-bottom: -10px;
+    border-radius: 30px;
+    
+}
+.expression{
+    height: 45%;
+    width: 98%;
+    margin-top: 8%;
+    color: purple;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 2px 3px;
+    
+}
+
+.display-ans .answer{
+    width: calc(97% - 10px);
+    height: 30%;
+    margin-top: -10px;
+    /* background-color: blueviolet; */
+    border: none;
+    outline: none;
+    font-size: 2.2rem;
+    background-color: white;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    padding: 10px;
+    text-align: right;
+    
+}
+.button-div{
+    display: grid;
+    /* padding:1px; */
+    grid-template-columns: repeat(1, 2fr);
+    margin-top: -25px;
+    /* border: 2px solid red; */
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 7px 7px 10px #EAF6F6, -7px -7px 10px #a8d1df79
+}
+.function-keys, .math-functions, .digits, .special-keys{
+    display: flex;
+    padding-left: 13px;
+    
+    
+}
+.function-keys button, .math-functions button, .digits button, .special-keys button{
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.decimal{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+button{
+    color: purple;
+    background-color: #fff;
+    border: gray;
+    border-radius: 10px;
+    box-shadow:  6px 6px 12px 0 #5555,
+    -6px -6px 12px 0 #CBCED8;
+}
+
+
+button:active{
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+/* @media (min-height: 740px) {
+    .display-container{
+        height: 400px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 30px;
+        padding: 2px;
+        }
+}       */
